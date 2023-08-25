@@ -1,0 +1,108 @@
+{
+  "producto": [
+    {
+      "url": "https://www.claroshop.com/c/star-wars-day/img/categorias/TAZAS_CATEGORIAS_STAR_WARS.png",
+      "producto": "Taza Star wars",
+      "categoria": "StarWars",
+      "precio": "120,00",
+      "descripcion": "Taza con fomra de casco",
+      "id": 1
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/81ooogrOCEL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "producto": "Lego Star wars",
+      "categoria": "StarWars",
+      "precio": "500,00",
+      "descripcion": "Juguete Lego de Star wars",
+      "id": 2
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61t4TYx-3YL._AC_SX679_.jpg",
+      "producto": "Figura Yoda",
+      "categoria": "StarWars",
+      "precio": "300,00",
+      "descripcion": "Juguete Yoda",
+      "id": 3
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61RaQUkHwqL.jpg",
+      "producto": "Figura de clon",
+      "categoria": "StarWars",
+      "precio": "200,00",
+      "descripcion": "Juguete clon",
+      "id": 4
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/318dKZLMjjL.__AC_QL70_ML2_.jpg",
+      "producto": "Baby Yoda",
+      "categoria": "StarWars",
+      "precio": "300,00",
+      "descripcion": "Juguete de Beby Yoda",
+      "id": 5
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/71jBDVmjxEL._AC_SX679_.jpg",
+      "producto": "Gorra de Star Wars",
+      "categoria": "StarWars",
+      "precio": "200,00",
+      "descripcion": "Gorra de Star Wars",
+      "id": 6
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61gimpyy0UL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "categoria": "Consolas",
+      "producto": "Play 5",
+      "precio": "560",
+      "descripcion": "Consola play 5",
+      "id": "ab843b09-2991-423b-88c2-dc0d65da7f29"
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/717ZSznYGXL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "categoria": "Consolas",
+      "producto": "Control Inalámbrico",
+      "precio": "1250",
+      "descripcion": "Control de Play 5",
+      "id": "f659c882-e2a8-4beb-869b-8302ba0bce24"
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51l2sun2aOL.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "categoria": "Consolas",
+      "producto": "Nintendo Switch",
+      "precio": "6000",
+      "descripcion": "Consola Nintendo Switch",
+      "id": "11509371-4148-4c8b-9890-37e698fd73b7"
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61drpi3cYUL.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "categoria": "Consolas",
+      "producto": "Control de Nintendo Switch",
+      "precio": "3000",
+      "descripcion": "Controles de Nintendo Switch",
+      "id": "5336905e-f40a-4f59-bd02-0598ac6eb5c4"
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51ojzJk77qL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "categoria": "Consolas",
+      "producto": "Xbox",
+      "precio": "10000",
+      "descripcion": "Consola Xbox",
+      "id": "88a7c56d-72f4-439a-95a8-36573c8763bd"
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/71wG2SsDRXL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "categoria": "Consolas",
+      "producto": "Control de Xbox",
+      "precio": "1299",
+      "descripcion": "Control de Xbox",
+      "id": "ddec7750-1fc7-4dc8-bbab-65f735ed4fff"
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/81KorNCn0QL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "categoria": "Diversos",
+      "producto": "Funko Luffy",
+      "precio": "250",
+      "descripcion": "Figura Funko de Luffy de One piece",
+      "id": "dc7621ee-9112-4c20-8f38-367b9a776b7c"
+    }
+  ]
+}

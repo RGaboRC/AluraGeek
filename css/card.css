@@ -1,0 +1,19 @@
+.productos__caja {
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+
+}
+.img{
+  width: 11rem;
+  height: 10rem;
+}
+
+.titulos_caja{
+  color: var(--color-texto-gris);
+}
+
+.ver_productos{
+ color: var(--color-btn);
+}

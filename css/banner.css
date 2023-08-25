@@ -1,0 +1,101 @@
+.banner{
+    background-image: url("../../assets/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.promocional{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+   
+
+}
+
+.titulos{
+    font-family: Raleway;
+    color: var(--preto-branco, #FFF);
+    font-family: Raleway;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subtitulos{
+    color: var(--preto-branco, #FFF);
+    font-family: Raleway;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btnContactar{
+    border:  none;
+    background: var(--azul-100, #2A7AE4);
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    color: var(--preto-branco, #FFF);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media screen and (min-width:0) {
+    .banner{
+        height: 12rem;
+        padding: 1rem;
+    }
+    .promocional{
+        gap: 0.5rem;
+    }
+    .titulos{
+        font-size: 1.375rem;
+    }
+    .subtitulos{
+        font-size: 0.875rem;  
+    }
+
+   
+}
+
+
+@media screen and (min-width:450px) {
+    .banner{
+        height: 22rem;
+        padding: 2rem;
+    }
+    .promocional{
+        gap: 1rem;
+    }
+    .titulos{
+        font-size: 3.25rem;
+    }
+    .subtitulos{
+        font-size: 1.375rem;  
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .promocional{
+        width: 71rem;
+    }
+        
+}

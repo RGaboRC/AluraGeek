@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="#">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AluraGeek</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link href="../css/style.css" rel="stylesheet">
+        <link href="../css/header.css" rel="stylesheet">
+        <link href="../css/productos.css" rel="stylesheet">
+        <link href="../css/rodape.css" rel="stylesheet">
+        <link href="../css/card.css" rel="stylesheet">
+        <link href="../css/busqueda.css" rel="stylesheet">
+        
+    </head>
+    <body>
+      <header class="headerPrincipal">
+        <section class="container">
+          <div class="logoSearch">
+            <a href="../index.html"> <img class="logo" src="../assets/Logo.png"></a>
+            <form class="searchBox">
+                <input class="buscador" type="text" placeholder="¿Qué deseas buscar?">
+                <button class="btnBuscador" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                <path d="M15.5 14.5H14.71L14.43 14.23C15.63 12.83 16.25 10.92 15.91 8.89C15.44 6.11 13.12 3.89 10.32 3.55C6.09001 3.03 2.53002 6.59 3.05002 10.82C3.39002 13.62 5.61002 15.94 8.39002 16.41C10.42 16.75 12.33 16.13 13.73 14.93L14 15.21V16L18.25 20.25C18.66 20.66 19.33 20.66 19.74 20.25C20.15 19.84 20.15 19.17 19.74 18.76L15.5 14.5ZM9.50002 14.5C7.01002 14.5 5.00002 12.49 5.00002 10C5.00002 7.51 7.01002 5.5 9.50002 5.5C11.99 5.5 14 7.51 14 10C14 12.49 11.99 14.5 9.50002 14.5Z" fill="#A2A2A2"/>
+                </svg></button>
+            </form>
+            
+          </div>
+          <a class="links" href="login.html"><button class="btnHeader" type="submit" >Login</button></a>
+        </section>
+      </header>
+
+
+      <main>
+        <section class="detail-container">
+            <div data-titulo-busqueda>
+      
+            </div>
+            <div class="details-product" data-producto-busqueda>
+      
+            </div>
+          </section>
+      </main>
+
+
+      <footer class="rodapePrincipal" id="footer">
+        <section class="footer">
+            <div class="seccion">
+                <img class="logoFooter" src="/assets/Logo.png">
+                <div class="link">
+                    <a class="link-nav" href="#">Quienes somos</a>
+                    <a class="link-nav" href="#">Política de privacidad</a>
+                    <a class="link-nav" href="#">Programa de fidelidad</a>
+                    <a class="link-nav" href="#">Nuestras Tiendas</a>
+                    <a class="link-nav" href="#">Quiero ser franquiciado</a>
+                    <a class="link-nav" href="#">Anúncie aquí</a>
+                </div>
+            </div>
+
+            <div class="habla">
+                <form class="form">
+                    
+                        <legend class="hableConNosotros">Hable con nostros</legend>
+                        <div class="input-container">
+                            <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" maxlength="40">
+                            <label class="input-label" for="name">Nombre</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="input-container">
+                            <input name="mensaje" id="mensaje" class="input" type="text" placeholder="Mensaje" required data-tipo="mensaje" maxlength="120">
+                            <label class="input-label" for="mensaje">Escribe tu mensaje</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                
+                </form>
+                <button class="btnEnviar">Enviar mensaje</button>
+            </div>
+        </section>
+
+        <section class="final">
+            <h3 class="desarrollado">Desarrollado por Raúl Gabriel Román <br> 2023</h3>
+        </section>
+    </footer>
+    <script src="../js/apps.js" type="module"></script>
+</body>
+</html>
+      
